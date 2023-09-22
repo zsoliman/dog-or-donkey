@@ -1,7 +1,7 @@
 const Startgame = () => {
     return (
-        <div>
-            <button>play</button>
+        <div className="startgame">
+            <button className="button">PLAY</button>
         </div>
     )
 }
