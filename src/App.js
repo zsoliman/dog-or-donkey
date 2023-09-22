@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Startgame />
+      <Startgame play={play} />
       <Game />
 
     </div>

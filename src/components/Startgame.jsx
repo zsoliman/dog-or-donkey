@@ -1,7 +1,9 @@
-const Startgame = () => {
+const Startgame = ({ play }) => {
     return (
         <div className="startgame">
-            <button className="button">PLAY</button>
+            <button
+                onClick={play}
+                className="button">PLAY</button>
         </div>
     )
 }
