@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import Startgame from './components/Startgame';
-import Game from './components/Game';
+
 
 const randomInt = (max) => {
   let res = Math.floor(Math.random() * max)
@@ -21,14 +21,16 @@ const play = () => {
   randomInt(2)
 }
 
+// const answerDog = () => {
+//   console.log("answer", play())
+// }
+// answerDog()
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Startgame play={play} />
-      <Game />
-
     </div>
   );
 }
